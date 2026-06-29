@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState, useEffect } from "react";
 const rajPhoto = { url: "/raj.jpg" };
-const resumePdf = { url: "public/RajResume_PA.pdf" };
+const resumePdf = { url: "/RajResume_PA.pdf" };
 
 export const Route = createFileRoute("/")({
   head: () => ({
